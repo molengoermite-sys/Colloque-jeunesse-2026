@@ -1,1 +1,110 @@
 index html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiche d'enregistrement CIJM 2026</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    form {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    .checkbox-group {
+      display: flex;
+      gap: 20px;
+    }
+    .checkbox-group input {
+      width: auto;
+    }
+    .section {
+      border-top: 1px solid #ddd;
+      padding-top: 15px;
+      margin-top: 15px;
+    }
+    button {
+      background-color: #2980b9;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #3498db;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Colloque International de la Jeunesse Mondiale (CIJM 2026)</h1>
+  <h2>Fiche d'enregistrement</h2>
+
+  <form action="#" method="post">
+
+    <!-- Informations personnelles -->
+    <div class="section">
+      <h3>I. Informations personnelles</h3>
+      <label>Nom :</label>
+      <input type="text" name="nom" required>
+
+      <label>Prénom :</label>
+      <input type="text" name="prenom" required>
+
+      <label>Post-nom :</label>
+      <input type="text" name="postnom">
+
+      <label>Sexe :</label>
+      <select name="sexe" required>
+        <option value="">--Choisir--</option>
+        <option value="Masculin">Masculin</option>
+        <option value="Féminin">Féminin</option>
+        <option value="Autre">Autre</option>
+      </select>
+
+      <label>Date de naissance :</label>
+      <input type="date" name="date_naissance" required>
+
+      <label>Nationalité :</label>
+      <input type="text" name="nationalite" required>
+
+      <label>Téléphone / WhatsApp :</label>
+      <input type="tel" name="telephone" required>
+
+      <label>Email :</label>
+      <input type="email" name="email" required>
+
+      <label>Pays / Ville de résidence :</label>
+      <input type="text" name="ville" required>
+    </div>
+
+    <!-- Catégorie de participation -->
+    <div class="section">
+      <h3>II. Catégorie de participation</h
